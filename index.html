@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="i">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="A beautiful image from Pexels" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contacts</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John James</td>
+                <td>Ongata Rongai, Nairobi</td>
+                <td>+254712345678</td>
+                <td>johnjames@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Smith</td>
+                <td>Langata, Nairobi</td>
+                <td>+254721436587</td>
+                <td>sarahsmith@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Kimutai</td>
+                <td>Eldoret, Uasin Ngishu</td>
+                <td>+254787654321</td>
+                <td>davidkimutai@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Brown</td>
+                <td>Kitale, Trans Nzoia</td>
+                <td>+254778563412</td>
+                <td>emilybrown@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Jordan</td>
+                <td>Lavington, Nairobi</td>
+                <td>+254712387654</td>
+                <td>michaeljordan@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="music" name="hobbies" value="Music">
+        <label for="music">Music</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="Kenya">Kenya</option>
+            <option value="USA">United States</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+        </select><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
